@@ -1,0 +1,155 @@
+.baners {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.baners__head {
+  font-size: 45px;
+  margin-left: -3px;
+  margin-bottom: -20px;
+}
+
+.baners__desc {
+  margin-bottom: 0;
+}
+
+.baners__Show {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.baner__Slide {
+  width: 90%;
+  margin-left: 0.5rem;
+  position: relative;
+}
+
+.baner__SlideIcon {
+  position: absolute;
+  top: 5%;
+  right: -10px;
+  z-index: 1;
+  font-size: 30px !important;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 8px;
+  background-color: white;
+}
+
+.baner__SlideIcon:hover {
+  background-color: rgba(248, 217, 217, 0.877);
+}
+
+.baner__SlideImage {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  padding-left: 1.6rem;
+}
+
+.baners__Upload {
+  width: 100%;
+  height: 8rem;
+  background-color: #9f9e9f;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.baners__UploadAddButton {
+  display: block;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px;
+  margin-left: 10rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.baners__UploadAddButton:hover {
+  transform: translateY(-2px);
+}
+
+.baners__none {
+  display: none;
+}
+
+.baners__UploadBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.baners__UploadBar__progress {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.baners__bottom {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.baners__UploadBar__Left {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px;
+  margin-left: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.baners__UploadBar__Left:hover {
+  transform: translateY(-2px);
+}
+
+.baners__UploadBar__Right {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  /* width: 90%; */
+  /* justify-content: flex-end; */
+}
+
+.baners__UploadBar__progress__Input {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.baners__UploadBar__progress__Save {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px;
+  margin-left: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.baners__UploadBar__progress__Save:hover {
+  transform: translateY(-2px);
+}

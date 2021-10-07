@@ -1,0 +1,85 @@
+.vendor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.vendor__head {
+  font-size: 45px;
+  margin-left: -3px;
+  margin-bottom: -20px;
+}
+
+.vendor__desc {
+  margin-bottom: 0;
+}
+
+.vendor__tabsContainer {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.vendor__tabs {
+  border: 1px solid rgb(71, 71, 71);
+  color: rgb(71, 71, 71);
+  background-color: transparent;
+  outline: none;
+  width: 10%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* height: 15%; */
+  white-space: nowrap;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s ease-out;
+}
+
+.vendor__tabs:hover {
+  transform: translateY(-3px);
+}
+
+.vendor__tabsActive {
+  color: white;
+  background-color: rgb(71, 71, 71);
+}
+
+.vendor__Table {
+  width: 100%;
+}
+
+.vendor__TableHeadRow {
+  color: black;
+  background-color: rgb(226, 226, 226);
+}
+
+.vendor__TableHeadEntity {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.vendor__TableBodyRow {
+  background-color: transparent;
+  cursor: default;
+}
+
+.vendor__TableBodyRow:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.vendor__TableBodyEntity {
+  text-align: center;
+  padding: 0.8rem 1rem;
+  justify-self: center;
+}
+
+.vendor__TableIcon {
+  background-color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}

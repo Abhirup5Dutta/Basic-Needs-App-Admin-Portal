@@ -1,0 +1,35 @@
+.categoryList {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 150px;
+  margin-left: 0.3rem;
+  margin-right: 2.3rem;
+}
+
+.categoryList__Item {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px solid rgb(207, 205, 205);
+  box-shadow: 3px 3px 5px 2px rgba(100, 100, 100, 0.2);
+  cursor: pointer;
+  position: relative;
+}
+
+.categoryList__ItemImage {
+  width: 90%;
+  margin-top: 0.4rem;
+  height: 60%;
+  object-fit: contain;
+}
+
+.categoryList__ItemName {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0.2rem;
+}

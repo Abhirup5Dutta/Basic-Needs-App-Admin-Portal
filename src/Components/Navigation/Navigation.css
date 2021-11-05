@@ -44,7 +44,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(9, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -57,7 +57,7 @@
 .navb-links {
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 2rem;
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
   white-space: nowrap;
@@ -74,7 +74,7 @@
   text-decoration: none;
   background-color: #80809c;
   border-radius: 8px;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 2rem;
   transition: all 0.3s ease-in-out;
   white-space: nowrap;
 }

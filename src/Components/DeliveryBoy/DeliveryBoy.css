@@ -1,0 +1,129 @@
+.deliveryBoy {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.deliveryBoy__head {
+  font-size: 45px;
+  margin-left: -3px;
+  margin-bottom: -20px;
+}
+
+.deliveryBoy__desc {
+  margin-bottom: 0;
+}
+
+.deliveryBoy__Upload {
+  width: 100%;
+  height: 8rem;
+  background-color: #9f9e9f;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.deliveryBoy__UploadAddButton {
+  display: block;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px;
+  margin-left: 10rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.deliveryBoy__UploadAddButton:hover {
+  transform: translateY(-2px);
+}
+
+.deliveryBoy__none {
+  display: none;
+}
+
+.deliveryBoy__UploadBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.deliveryBoy__UploadBar__progress {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.deliveryBoy__bottom {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deliveryBoy__UploadBar__Left {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px 20px;
+  margin-left: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.deliveryBoy__UploadBar__Left:hover {
+  transform: translateY(-2px);
+}
+
+.deliveryBoy__UploadBar__Right {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  /* width: 90%; */
+  /* justify-content: flex-end; */
+}
+
+.deliveryBoy__UploadBar__RightText {
+  margin-right: 1rem;
+  border: 2px solid #474547;
+  font-size: medium;
+  outline: none;
+  height: 75%;
+  /* width: 20%; */
+  margin-left: -1rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+}
+
+.deliveryBoy__UploadBar__progress__Input {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.deliveryBoy__UploadBar__progress__Save {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #474547;
+  font-size: large;
+  padding: 11px 20px;
+  margin-left: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.deliveryBoy__UploadBar__progress__Save:hover {
+  transform: translateY(-2px);
+}

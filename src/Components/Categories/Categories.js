@@ -79,7 +79,7 @@ function Categories() {
                 </button>
                 <div className={addVisible ? "categories__none" : "categories__UploadBar"}>
                     <progress className='categories__UploadBar__progress' value={progress} max='100' />
-                    <div className="baners__bottom">
+                    <div className="categories__bottom">
                         <button className='categories__UploadBar__Left' onClick={(e) => { e.preventDefault(); setAddVisible((prev) => prev = !prev) }} >
                             Cancel
                         </button>
